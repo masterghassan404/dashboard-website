@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Login from '../views/pages/index/Login.vue';
-import home from '../views/pages/home.vue';
-import navbar from "../views/pages/index/navbar.vue";
-import Signup from "../views/pages/Signup.vue";
+import Login from '@/views/pages/index/Login.vue';
+import home from '@/views/pages/home.vue';
+import navbar from "@/views/pages/index/navbar.vue";
+import Signup from "@/views/pages/Signup.vue";
 
 const routes =[
     {
-        path: '/home',
+        path: '/',
         name: 'home_page',
         component: home,
         meta: {
