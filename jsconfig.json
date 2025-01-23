@@ -1,0 +1,11 @@
+{ 
+    "compilerOptions": {
+        "allowJs":true,
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+
+    },
+    "exclude": ["noode_modules","dist"]
+
+}
